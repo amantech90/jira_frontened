@@ -1,8 +1,8 @@
 import axios from "axios";
 
 // Log environment variables to ensure they are loaded correctly
-console.log("Base URL:", process.env.REACT_APP_BASE_URL);
-console.log("Email:", process.env.REACT_APP_EMAIL);
+console.log("Base URL:", process.env.JIRA_BASE_URL);
+console.log("Email:", process.env.JIRA_USER_NAME);
 
 const axiosPrivate = axios.create({
   //   baseURL: process.env.REACT_APP_BASE_URL, // Ensure no extra characters here
